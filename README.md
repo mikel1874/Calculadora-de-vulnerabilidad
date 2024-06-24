@@ -1,2 +1,4 @@
-# Calculadora-de-vulnerabilidad
-calculadora que estima la vulnerabilidad sísmica de una vivienda
+# 
+
+A Pen created on CodePen.io. Original URL: [https://codepen.io/MIGHAEL-JAVIER-ALHUAY-YAPU/pen/oNRdPpL](https://codepen.io/MIGHAEL-JAVIER-ALHUAY-YAPU/pen/oNRdPpL).
+

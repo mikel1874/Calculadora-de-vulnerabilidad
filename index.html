@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Vulnerabilidad Sísmica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Vulnerabilidad Sísmica</h1>
+        <div class="input-group">
+            <label for="materiales">Mala Calidad de Materiales (0-1):</label>
+            <input type="number" id="materiales" min="0" max="1" step="0.1" value="0">
+        </div>
+        <div class="input-group">
+            <label for="altura">Altura del Edificio (metros):</label>
+            <input type="number" id="altura" min="0" value="0">
+        </div>
+        <div class="input-group">
+            <label for="edad">Edad del Edificio (años):</label>
+            <input type="number" id="edad" min="0" value="0">
+        </div>
+        <div class="input-group">
+            <label for="mantenimiento">Falta de Mantenimiento (0-1):</label>
+            <input type="number" id="mantenimiento" min="0" max="1" step="0.1" value="0">
+        </div>
+        <button id="calcular">Calcular</button>
+        <button id="reiniciar">Reiniciar</button>
+        <div class="resultado">
+            <h2>Nivel de Vulnerabilidad: <span id="vulnerabilidad">0</span></h2>
+        </div>
+        <canvas id="graficoBarras"></canvas> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
